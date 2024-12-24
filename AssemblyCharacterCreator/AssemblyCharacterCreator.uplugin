@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Assembly: Modular Character System",
+	"Description": "A series of Components for creating and managing characters.",
+	"Category": "Character",
+	"CreatedBy": "Studio SyndiCat",
+	"CreatedByURL": "https://www.studiosyndicat.com/",
+	"DocsURL": "https://docs.google.com/document/d/12DBg_edlHFeHmw84wo7rdbTzi1goPuZL8_3tSKEjNk0/edit#heading=h.y9k835iln8z7",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/634d71c7220146859067dbf0fd6cc1cd",
+	"SupportURL": "",
+	"EngineVersion": "5.4",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AssemblyCharacterCreator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "AssemblyEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SkeletalMerging",
+			"Enabled": true
+		}
+	]
+}
